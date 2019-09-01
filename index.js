@@ -61,7 +61,6 @@ const filterSchemaRouter = ({ schemaMap, options, path="/", router }) => {
     };
     return retval;
   }, {});
-  console.log(entryPoints);
   return schemaRouter({ entryPoints, path, router });
 }
 
