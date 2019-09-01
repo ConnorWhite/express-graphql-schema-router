@@ -8,7 +8,7 @@
   "dependencies": {
     "apollo-server-express": "^2.9.2",
     "express": "^4.17.1",
-    "express-http-proxy": "git+https://github.com/ConnorWhite/express-http-proxy.git",
+    "express-http-proxy": "git+https://github.com/ConnorWhite/express-http-proxy.git#12dbec680f8d7d03196798b4f7d4eb7e81af914f",
     "graphql-tools-fork": "^6.3.4"
   }
 }
