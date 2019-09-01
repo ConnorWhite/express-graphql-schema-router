@@ -1,6 +1,6 @@
 {
   "name": "express-graphql-schema-router",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package to route users to different GraphQL servers. Uses Express, ApolloServer, and graphql-http-proxy.",
   "main": "index.js",
   "author": "Connor White",
@@ -8,6 +8,7 @@
   "dependencies": {
     "apollo-server-express": "^2.9.2",
     "express": "^4.17.1",
-    "express-http-proxy": "^1.5.1"
+    "express-http-proxy": "^1.5.1",
+    "graphql-tools-fork": "^6.3.4"
   }
 }
