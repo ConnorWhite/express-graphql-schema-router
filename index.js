@@ -45,7 +45,7 @@ const schemaRouter = ({ entryPoints={}, path="/", router }) => {
     server.applyMiddleware({ app, path: "/" });
     listeners[schemaKey] = app.listen();
   });
-  return [path, proxy((req) => `http://127.0.0.1:${listeners[router(req)].address().port}/${path}`, {
+  return [path, proxy(async (req) => `http://127.0.0.1:${listeners[await router(req)].address().port}/${path}`, {
     parseReqBody: false,
     memoizeHost: true
   })];
